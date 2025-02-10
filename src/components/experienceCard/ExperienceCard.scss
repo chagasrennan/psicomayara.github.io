@@ -1,0 +1,88 @@
+@import "../../_globalColor";
+
+// Card container
+.experience-card, .experience-card-dark {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  border: 1px solid $lightBorder1;
+  overflow: hidden;
+  background: transparent !important; // Remove default background
+}
+
+// Image section
+.experience-image-container {
+  position: relative;
+  height: 100%;
+  min-height: 300px; // Adjust based on needs
+}
+
+.experience-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experience-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); // Dark overlay
+}
+
+// Text content
+.experience-text-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+  color: white; // Default text color for overlay
+
+  .experience-text-role {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .experience-text-desc {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white !important; // Brighter text color
+  }
+
+  ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+}
+
+// Dark mode text override
+.dark-mode-text {
+  color: white !important;
+}
+
+// Existing media queries
+@media (max-width: 1380px) {
+  .experience-text-role {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-image-container {
+    min-height: 250px;
+  }
+  
+  .experience-text-role {
+    font-size: 22px !important;
+  }
+  
+  .experience-text-desc {
+    font-size: 14px !important;
+  }
+}

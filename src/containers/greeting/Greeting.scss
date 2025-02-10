@@ -1,0 +1,118 @@
+@import "../../_globalColor";
+
+// Make the outer container span the full width and (optionally) full viewport height
+.greet-main {
+  position: relative;        // Establish positioning context for absolute children
+  width: 100%;
+  min-height: 100vh;         // Full viewport height (adjust if needed)
+  overflow: hidden;
+  padding: 20px 10px;        // You can adjust padding as desired
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+/* Remove or adjust this if you no longer need a flex layout */
+.greeting-main {
+  position: relative;        // So that child elements can be layered over the background
+  z-index: 1;                // Ensure content sits above the image
+  padding: 20px 10px;        // (Optional) Add padding for your content
+}
+
+/* Ensure your text content sits above the image */
+.greeting-text-div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Position the image absolutely so it covers the entire container */
+.greeting-image-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;               // Behind the text content
+}
+
+/* Ensure the image itself fills the container and covers it */
+.greeting-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Existing styles below (adjust if needed) */
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.greet-main {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: $textColor !important;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-10deg); }
+  20% { transform: rotate(12deg); }
+  30% { transform: rotate(-10deg); }
+  40% { transform: rotate(9deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Media Queries (adjust if needed) */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}

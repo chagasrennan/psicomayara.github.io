@@ -1,0 +1,59 @@
+@import "../../_globalColor";
+
+.media-card, .media-card-dark {
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  background: $lightBackground1;
+  box-shadow: $lightBoxShadowDark 0px 5px 15px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.media-card-dark {
+  background: $darkBackground;
+  box-shadow: $darkBoxShadow 0px 5px 15px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 177.77%; // 9:16 aspect ratio (Shorts format)
+  height: 0;
+  overflow: hidden;
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+.media-title {
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: $textColor;
+}
+
+.dark-mode-text {
+  color: $textColorDark !important;
+}
+
+@media (max-width: 768px) {
+  .media-card {
+    margin: 0.5rem;
+  }
+  
+  .media-title {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}

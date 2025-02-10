@@ -1,0 +1,59 @@
+@import "../../_globalColor";
+
+.testimonial-card {
+  background-color: $lightBackground2;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: $lightBoxShadowDark 0px 5px 15px;
+  min-height: 250px;
+  display: flex !important; // Important for slider
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial-card-dark {
+  @extend .testimonial-card;
+  background-color: $darkBackground;
+  box-shadow: $darkBoxShadow 0px 5px 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: $textColor;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonial-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: 600;
+  color: $textColor;
+}
+
+.dark-mode-text {
+  color: $textColorDark !important;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  .testimonial-text {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,79 @@
+@import "../../_globalColor";
+
+.faq-item {
+  margin-bottom: 1rem;
+  border: 1px solid $lightBorder1;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  
+  &.dark {
+    border-color: $darkBorder;
+  }
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  background-color: $lightBackground2;
+  color: $titleColor;
+  
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $titleColor !important;
+  }
+
+  .dark & {
+    background-color: $darkBackground;
+  }
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  font-weight: 400;
+  transition: transform 0.3s ease;
+  
+  &.open {
+    transform: rotate(45deg);
+  }
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 1.5rem;
+  background-color: $lightBackground1;
+  
+  &.open {
+    max-height: 500px; /* Adjust based on content */
+    padding: 1.5rem;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .dark & {
+    background-color: $darkBackground;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-header {
+    padding: 1rem;
+    
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  .faq-content.open {
+    padding: 1rem;
+  }
+}
