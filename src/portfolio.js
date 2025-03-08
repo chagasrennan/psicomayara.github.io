@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import homeButton from "./assets/images/home_button.png";
 
 // Splash Screen
 
@@ -27,7 +28,9 @@ const firstxp = new Date("2012-01-01");
 const totalxp = Math.floor((currentDate - firstxp) / (365.25 * 24 * 60 * 60 * 1000));
 
 const greeting = {
-  username: "Home",
+  username: <div style={{ height: "40px", display: "flex", alignItems: "center", overflow: "hidden" }}>
+    <img src={homeButton} alt="Home" style={{ height: "60px", width: "auto" }} />
+  </div>,
   title: "Mayara Medeiros Costa",
   subTitle: emoji(
     `Psicóloga Clínica`
@@ -225,23 +228,23 @@ export const faq = {
   faqs: [
     {
       question: "Quais serviços de psicologia você oferece?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      answer: "No momento, tenho vagas para psicoterapia individual, podendo ser online através de videochamada, ou presencial em Icaraí, RJ. Os atendimentos podem ser em português ou em inglês.."
     },
     {
       question: "Qual faixa etária você atende?",
-      answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      answer: "Atendo adolescentes e adultos, com idade mínima de 14 anos."
     },
     {
       question: "Você trabalha com atendimento presencial?",
-      answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      answer: "Sim. O consultório é localizado no Edifício Tiffany, na Rua Ator Paulo Gustavo, em Icaraí, Niterói. Será um prazer te receber."
     },
     {
       question: "Aceita convênio?",
-      answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      answer: "Apenas atendimentos particulares, mas trabalhamos com reembolso para plano de saude."
     },
     {
       question: "Como Agendar?",
-      answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      answer: "Através do WhatsApp pelos números: (21) 99624-3504 e (21) 97689-4040 ou pelo e-mail: mayaracostapsi@gmail.com"
     },
     // Add more FAQs
   ]
@@ -572,7 +575,7 @@ const publicationInfo = {
 const contactInfo = {
   title: emoji("Agende uma consulta"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Vamos conversar? Quer saber mais sobre como posso te ajudar? Me envie uma mensagem!",
   // number: "+92-0000000000",
   // email_address: "chagasrennan@gmail.com"
 };

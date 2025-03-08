@@ -51,13 +51,19 @@
 }
 
 .header .logo {
-  display: block;
-  flex: none;
+  display: flex;
+  align-items: center;
   float: left;
   font-size: 1.5em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+}
+
+.header .logo img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
 }
 
 .header .logo-name {

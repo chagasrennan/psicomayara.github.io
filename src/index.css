@@ -7,6 +7,14 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Sephir";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sephir"),
+    url("./assets/fonts/Sephir-Regular.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
