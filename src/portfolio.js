@@ -150,32 +150,32 @@ const workExperiences = {
     {
       role: "Me sinto sempre preocupado e sobrecarregado.",
       desc: "Você tem a sensação de que sua mente nunca descansa? Pensamentos constantes e preocupações podem ser sinais de ansiedade. Entenda como a terapia pode ajudar a recuperar sua calma.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_4_edited.png"),
     },
     {
       role: "Estou sempre cansado, mesmo sem fazer muito.",
       desc: "Se o cansaço físico e emocional tem tirado sua energia, pode ser mais do que apenas estresse.Descubra como a terapia pode identificar a causa e trazer alívio.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_2_edited.png"),
     },
     {
       role: "Nada me deixa realmente feliz.",
       desc: "Aquela alegria que você costumava sentir parece distante? Saiba como a terapia pode ajudá-lo aredescobrir o prazer de viver.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_3_edited.png"),
     },
     {
       role: "Eu me preocupo demais com o futuro.",
       desc: "A insegurança sobre o amanhã pode ser paralisante. Na terapia, você aprende a viver o presente e criar estratégias para lidar com as incertezas.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_8_edited.png"),
     },
     {
       role: "Tenho dificuldade em lidar com mudanças.",
       desc: "Mudanças, mesmo as positivas, podem ser desafiadoras. Veja como a terapia pode ajudá-lo a se adaptar com mais segurança e equilíbrio.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_5_edited.png"),
     },
     {
       role: "Sinto que não sou bom o suficiente.",
       desc: "Pensamentos de autocrítica constante podem minar sua autoestima. A terapia ajuda você aconstruir uma relação mais saudável consigo mesmo.",
-      companylogo: require("./assets/images/tormented.jpeg"),
+      companylogo: require("./assets/images/help_7_edited.png"),
     },
     
   ]
@@ -208,7 +208,11 @@ export const media = {
   items: [
     {
       videoId: "897SEqrooOI", // YouTube video ID
-      title: "A terapia cognitiva pode mudar sua vida! "
+      title: "A terapia cognitiva pode mudar sua vida!"
+    },
+    {
+      videoId: "RbX2gAVsaJs", // YouTube video ID
+      title: "Como é a terapia comigo?"
     },
     {
       videoId: "TV-Ftkz2mWE",
@@ -217,6 +221,10 @@ export const media = {
     {
       videoId: "_fvhlI4njxQ",
       title: "Psicologia é ciência!"
+    },
+    {
+      videoId: "kCjDhj8_Fis",
+      title: "Sigilo na terapia"
     },
     // Add more media items
   ]
