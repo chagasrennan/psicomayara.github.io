@@ -33,7 +33,7 @@ export default function MediaSlider() {
     <section id="media">
       <div className="media-container">
         <h2 className={isDark ? "section-title dark-mode-text" : "section-title"}>
-          Latest Shorts
+          Conheça um pouco mais sobre a terapia
         </h2>
         <div className="slider-wrapper">
           <Slider {...settings}>
