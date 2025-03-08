@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d512ada.css",
-    "main.js": "/static/js/main.24c38d47.js",
-    "static/css/64.d27c09fa.chunk.css": "/static/css/64.d27c09fa.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.c005fa2a.chunk.js": "/static/js/769.c005fa2a.chunk.js",
+    "main.css": "/static/css/main.e2f9bfa9.css",
+    "main.js": "/static/js/main.2326dcfd.js",
+    "static/css/487.8bb234cd.chunk.css": "/static/css/487.8bb234cd.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.c1ba55c0.chunk.js": "/static/js/990.c1ba55c0.chunk.js",
     "static/media/ALE_6090.JPG": "/static/media/ALE_6090.4c6ad881e2741b9b289c.JPG",
     "static/media/VictorMonoNerdFontPropo-Regular.ttf": "/static/media/VictorMonoNerdFontPropo-Regular.48383b9cf696b265c86d.ttf",
     "static/media/Caveat-VariableFont_wght.ttf": "/static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
@@ -33,15 +33,15 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.7d512ada.css.map": "/static/css/main.7d512ada.css.map",
-    "main.24c38d47.js.map": "/static/js/main.24c38d47.js.map",
-    "64.d27c09fa.chunk.css.map": "/static/css/64.d27c09fa.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.c005fa2a.chunk.js.map": "/static/js/769.c005fa2a.chunk.js.map"
+    "main.e2f9bfa9.css.map": "/static/css/main.e2f9bfa9.css.map",
+    "main.2326dcfd.js.map": "/static/js/main.2326dcfd.js.map",
+    "487.8bb234cd.chunk.css.map": "/static/css/487.8bb234cd.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.c1ba55c0.chunk.js.map": "/static/js/990.c1ba55c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d512ada.css",
-    "static/js/main.24c38d47.js"
+    "static/css/main.e2f9bfa9.css",
+    "static/js/main.2326dcfd.js"
   ]
 }
