@@ -19,7 +19,6 @@ import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Testimonials from "./testimonials/Testimonials";
 import Faq from "../containers/faq/Faq";
@@ -27,8 +26,6 @@ import MediaSlider from "../containers/mediaSlider/MediaSlider";
 
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -44,13 +41,9 @@ const Main = () => {
     }
   }, []);
 
-  const changeTheme = () => {
-    setIsDark(!isDark);
-  };
-
   return (
-    <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+    <div>
+      <StyleProvider value={{isDark: false, changeTheme: () => {}}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (
