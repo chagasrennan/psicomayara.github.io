@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.57f0fe27.css",
-    "main.js": "/static/js/main.be96c332.js",
-    "static/css/487.8bb234cd.chunk.css": "/static/css/487.8bb234cd.chunk.css",
+    "main.js": "/static/js/main.14399f4e.js",
+    "static/css/487.d5af952f.chunk.css": "/static/css/487.d5af952f.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
-    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/css/990.d68e2741.chunk.css": "/static/css/990.d68e2741.chunk.css",
     "static/js/990.c1ba55c0.chunk.js": "/static/js/990.c1ba55c0.chunk.js",
     "static/media/ALE_6090.JPG": "/static/media/ALE_6090.4c6ad881e2741b9b289c.JPG",
     "static/media/VictorMonoNerdFontPropo-Regular.ttf": "/static/media/VictorMonoNerdFontPropo-Regular.48383b9cf696b265c86d.ttf",
@@ -39,14 +39,14 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.57f0fe27.css.map": "/static/css/main.57f0fe27.css.map",
-    "main.be96c332.js.map": "/static/js/main.be96c332.js.map",
-    "487.8bb234cd.chunk.css.map": "/static/css/487.8bb234cd.chunk.css.map",
+    "main.14399f4e.js.map": "/static/js/main.14399f4e.js.map",
+    "487.d5af952f.chunk.css.map": "/static/css/487.d5af952f.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
-    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.d68e2741.chunk.css.map": "/static/css/990.d68e2741.chunk.css.map",
     "990.c1ba55c0.chunk.js.map": "/static/js/990.c1ba55c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57f0fe27.css",
-    "static/js/main.be96c332.js"
+    "static/js/main.14399f4e.js"
   ]
 }
