@@ -5,6 +5,7 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 import homeButton from "./assets/images/home_button.png";
+import LargeButton from "./components/LargeButton/LargeButton";
 
 // Splash Screen
 
@@ -185,18 +186,18 @@ const testimonials = {
   display: true,
   testimonials: [
     {
-      text: "O Consultório de psicologia foi incrível! O atendimento foi acolhedor e profissional, e o ambiente era muito acolhedor. Recomendo a todos que procuram um espaço de apoio e escuta. Muito obrigado Victória!",
-      name: "Leonel Messi",
+      text: "Com a terapia, aprendi a ter mais paciência comigo",
+      name: "Anônimo",
       image: require("./assets/images/DESTAQUES_1.png")
     },
     {
-      text: "O Consultório de Psicologia foi incrível! O atendimento foi excepcional e o profissionalismo da equipe foi impressionante. Fiquei muito satisfeito com o serviço prestado e recomendo a todos que procuram ajuda psicológica. Muito obrigado, Victória!",
-      name: "Cristiano Ronaldo",
+      text: "A terapia foi importantíssima para o meu crescimento",
+      name: "A.S., 53 anos",
       image: require("./assets/images/DESTAQUES_1.png")
     },
     {
-      text: "O Consultório de Psicologia foi incrível! O atendimento foi excepcional e o profissionalismo da equipe foi impressionante. Fiquei muito satisfeito com o serviço prestado e recomendo a todos que procuram ajuda psicológica. Muito obrigado, Victória!",
-      name: "Neymar Jr",
+      text: "Muito obrigada por todo o acompanhamento. Pessoas como você são essenciais, todo o cuidado e paciência para tratar do meu caso, acredito que se eu não tivesse te encontrado, hoje talvez eu não estaria mais aqui. Você me salvou quando eu achava que não existia mais salvação.",
+      name: "M.C., 22 anos",
       image: require("./assets/images/DESTAQUES_1.png")
     },
     // Add more testimonials
@@ -581,7 +582,7 @@ const publicationInfo = {
 
 
 const contactInfo = {
-  title: emoji("Agende uma consulta"),
+  title: <LargeButton text={emoji("Agende uma consulta")} href={`https://wa.me/${socialMediaLinks.whatsapp}`} />,
   subtitle:
     "Vamos conversar? Quer saber mais sobre como posso te ajudar? Me envie uma mensagem!",
   // number: "+92-0000000000",

@@ -1,0 +1,69 @@
+@import "../../_globalColor";
+
+.large-button {
+  padding: 1.5rem 3.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 16px;
+  background-color: $buttonColor;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin: 0.5rem 0;
+  min-width: 260px;
+}
+
+.large-button:hover, .large-button:focus {
+  background-color: $buttonHover;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  outline: none;
+}
+
+.large-main-button {
+  background-color: $buttonColor;
+  border: solid 1.5px $buttonColor;
+  color: $textColorDark;
+  font-weight: 700;
+  width: max-content;
+  padding: 24px 48px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.large-main-button:hover {
+  background-color: $darkBoxShadow2;
+  color: $buttonColor;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-3px);
+}
+
+.large-project-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.large-project-button > .large-main-button {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .large-main-button {
+    font-size: 1.25rem;
+    padding: 18px 28px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .large-main-button {
+    font-size: 1rem;
+  }
+} 
