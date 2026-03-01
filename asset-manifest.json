@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.fd249027.css",
-    "main.js": "/static/js/main.fbd5aa15.js",
+    "main.js": "/static/js/main.a43a9fe0.js",
     "static/css/487.d5af952f.chunk.css": "/static/css/487.d5af952f.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.d68e2741.chunk.css": "/static/css/990.d68e2741.chunk.css",
     "static/js/990.51134c3a.chunk.js": "/static/js/990.51134c3a.chunk.js",
-    "static/media/ALE_6090.JPG": "/static/media/ALE_6090.4c6ad881e2741b9b289c.JPG",
+    "static/media/ALE_6090.JPG": "/static/media/ALE_6090.c45c2d45cf3d9f154d87.JPG",
     "static/media/VictorMonoNerdFontPropo-Regular.ttf": "/static/media/VictorMonoNerdFontPropo-Regular.48383b9cf696b265c86d.ttf",
     "static/media/help_8_edited.png": "/static/media/help_8_edited.e7ababbf8713f3beb0f5.png",
     "static/media/help_2_edited.png": "/static/media/help_2_edited.04b23e13d68e5d273a8b.png",
@@ -39,7 +39,7 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.fd249027.css.map": "/static/css/main.fd249027.css.map",
-    "main.fbd5aa15.js.map": "/static/js/main.fbd5aa15.js.map",
+    "main.a43a9fe0.js.map": "/static/js/main.a43a9fe0.js.map",
     "487.d5af952f.chunk.css.map": "/static/css/487.d5af952f.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.d68e2741.chunk.css.map": "/static/css/990.d68e2741.chunk.css.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.fd249027.css",
-    "static/js/main.fbd5aa15.js"
+    "static/js/main.a43a9fe0.js"
   ]
 }
