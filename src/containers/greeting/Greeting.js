@@ -24,7 +24,7 @@ export default function Greeting() {
           ) : (
             <img
               alt="mayara"
-              src={require("../../assets/images/ALE_6090.JPG")}
+              src={require("../../assets/images/ALE_6090_.JPG")}
             />
           )}
         </div>
