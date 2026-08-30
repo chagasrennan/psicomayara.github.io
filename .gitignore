@@ -25,3 +25,9 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
+
+# graphify (generated knowledge graph)
+graphify-out/
+
+# claude code personal settings
+.claude/settings.local.json
